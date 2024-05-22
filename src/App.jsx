@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Weird } from './weird'
 import { StupidButton } from './components/anotherMainBranchComponent/stupidButton'
+import { SorryButton } from './components/anotherMainBranchComponent/sorryButton'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +33,7 @@ function App() {
       </p>
       <Weird></Weird>
       <StupidButton></StupidButton>
+      <SorryButton></SorryButton>
     </>
   )
 }
