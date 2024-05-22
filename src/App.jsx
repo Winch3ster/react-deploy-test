@@ -6,6 +6,7 @@ import { Weird } from './weird'
 import { StupidButton } from './components/anotherMainBranchComponent/stupidButton'
 import { SorryButton } from './components/anotherMainBranchComponent/sorryButton'
 import { Alo } from './components/anotherTestCompBranchElements/alo'
+import { Alo2 } from './components/anotherTestCompBranchElements/alo2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,6 +37,7 @@ function App() {
       <StupidButton></StupidButton>
       <SorryButton></SorryButton>
       <Alo></Alo>
+      <Alo2></Alo2>
     </>
   )
 }
