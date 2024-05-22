@@ -5,6 +5,7 @@ import './App.css'
 import { Weird } from './weird'
 import { StupidButton } from './components/anotherMainBranchComponent/stupidButton'
 import { SorryButton } from './components/anotherMainBranchComponent/sorryButton'
+import { Alo } from './components/anotherTestCompBranchElements/alo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
       <Weird></Weird>
       <StupidButton></StupidButton>
       <SorryButton></SorryButton>
+      <Alo></Alo>
     </>
   )
 }
